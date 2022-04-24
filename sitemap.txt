@@ -5,8 +5,5 @@ http://example.com/about/index.html
 http://example.com/timeline/index.html
 http://example.com/link.json
 http://example.com/link/index.html
-http://example.com/2022/04/24/tags/
 http://example.com/2022/04/24/hello-world/
 http://example.com/
-http://example.com/tags/1111/
-http://example.com/tags/2222/
