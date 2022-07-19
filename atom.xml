@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-07-18T03:18:43.236Z</updated>
+  <updated>2022-07-19T02:31:33.134Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Node.js 简介</title>
+    <link href="http://example.com/2022/07/19/Node-js%E7%AE%80%E4%BB%8B/"/>
+    <id>http://example.com/2022/07/19/Node-js%E7%AE%80%E4%BB%8B/</id>
+    <published>2022-07-19T02:30:55.000Z</published>
+    <updated>2022-07-19T02:31:33.134Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a>Node.js</h1><p>[^]: </p><h3 id="一、简介"><a href="#一、简介" class="headerlink" title="一、简介"></a>一、简介</h3><h5 id="1、什么是Node-js？"><a href="#1、什么是Node-js？" class="headerlink" title="1、什么是Node.js？"></a>1、什么是Node.js？</h5><ul><li>Node.js 是一个基于Chrome V8 引擎的 JavaScript 运行环境。</li></ul><hr><h5 id="2、Node-js-中的-JavaScript-运行环境。"><a href="#2、Node-js-中的-JavaScript-运行环境。" class="headerlink" title="2、Node.js 中的 JavaScript 运行环境。"></a>2、Node.js 中的 JavaScript 运行环境。</h5><ul><li>V8引擎、内置API、待执行的 JavaScript 代码</li></ul><ol><li><em>浏览器是 JavaScript 的前端运行环境</em></li><li><em>Node.js 是JavaScript 的后端运行环境</em></li><li><em>Node.js 中无法调用 DOM 和 BOM 等浏览器内置API</em></li></ol><hr><h5 id="3、Node-js-可以做什么？"><a href="#3、Node-js-可以做什么？" class="headerlink" title="3、Node.js 可以做什么？"></a>3、Node.js 可以做什么？</h5><p><strong>1️⃣基于 <a href="http://www.expressjs.com.cn/">Express 框架</a>，可以快速构建 Web 应用。</strong></p><p><strong>2️⃣基于 <a href="https://electronjs.org/">Electron 框架</a>，可以构建跨平台的桌面应用。</strong></p><p><strong>3️⃣基于 <a href="http://restify.com/">restify 框架</a>，可以快速构建 API 接口项目。</strong></p><p><strong>4️⃣读写和操作数据库、创建实用的命令行工具辅助前端的开发、etc…</strong></p><hr><h5 id="4、Node-js-好学吗？"><a href="#4、Node-js-好学吗？" class="headerlink" title="4、Node.js 好学吗？"></a>4、Node.js 好学吗？</h5><ul><li><strong>好学</strong></li></ul><blockquote><p><strong>会 JavaScript，就能学会 Node.js！！！</strong></p></blockquote><hr><h5 id="5、Node-js-怎么学？"><a href="#5、Node-js-怎么学？" class="headerlink" title="5、Node.js 怎么学？"></a>5、Node.js 怎么学？</h5><ul><li>与 JavaScript 类似</li></ul><p></p><blockquote><p><strong>浏览器中 JavaScript 学习路径：</strong></p></blockquote><p><strong>JavaScript 基础语法 + 浏览器内置 API （DOM + BOM）+  第三方库（jQuery、art-template 等）</strong></p><blockquote><p><strong>Node.js 的学习路径：</strong></p></blockquote><p><strong>JavaScript 基础语法 + <u>Node.js 内置 API 模块</u>（fs、path、http等）+  <u>第三方 API 模块</u>（express、mysql 等）</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Node-js&quot;&gt;&lt;a href=&quot;#Node-js&quot; class=&quot;headerlink&quot; title=&quot;Node.js&quot;&gt;&lt;/a&gt;Node.js&lt;/h1&gt;&lt;p&gt;[^]: &lt;/p&gt;
+&lt;h3 id=&quot;一、简介&quot;&gt;&lt;a href=&quot;#一、简介&quot; class=&quot;hea</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Laravel安装</title>
