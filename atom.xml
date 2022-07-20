@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-07-20T02:56:15.667Z</updated>
+  <updated>2022-07-20T03:01:14.493Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://example.com/2022/07/20/Node-js%E5%AE%89%E8%A3%85/"/>
     <id>http://example.com/2022/07/20/Node-js%E5%AE%89%E8%A3%85/</id>
     <published>2022-07-20T02:55:21.000Z</published>
-    <updated>2022-07-20T02:56:15.667Z</updated>
+    <updated>2022-07-20T03:01:14.493Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a>Node.js</h1><p>[^]: </p><h5 id="1、Node-js-环境的安装"><a href="#1、Node-js-环境的安装" class="headerlink" title="1、Node.js 环境的安装"></a>1、Node.js 环境的安装</h5><p>安装包可前往官网首页<a href="https://nodejs.org/en/">Node.js</a>直接下载</p><hr><h5 id="2、区分-LTS-版本和-Current-版本的不同"><a href="#2、区分-LTS-版本和-Current-版本的不同" class="headerlink" title="2、区分 LTS 版本和 Current 版本的不同"></a>2、区分 LTS 版本和 Current 版本的不同</h5><ol><li>LTS 为长期稳定版，对于追求稳定性的企业及项目，推荐安装 LTS 版本的 Node.js。</li><li>Current 为新特性尝鲜版 ，对热衷于尝试新特性的用户来说，推荐安装 Current 版本的 Node.js。但是可能存在 bug 或安全漏洞。</li></ol><hr><h5 id="3、查看已安装的-Node-js-的版本号"><a href="#3、查看已安装的-Node-js-的版本号" class="headerlink" title="3、查看已安装的 Node.js 的版本号"></a>3、查看已安装的 Node.js 的版本号</h5><p><strong>win + r 打开运行面板，输入cmd打开终端，输入 node -v 回车，即可看到已安装的 Node.js 的版本号</strong></p><ul><li><strong>node -v之间有一个空格。</strong></li></ul>]]></content>
+    <content type="html"><![CDATA[<h1 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a>Node.js</h1><p>[^]: </p><h5 id="1、Node-js-环境的安装"><a href="#1、Node-js-环境的安装" class="headerlink" title="1、Node.js 环境的安装"></a>1、Node.js 环境的安装</h5><p><strong>安装包可前往官网首页<a href="https://nodejs.org/en/">Node.js</a>直接下载</strong></p><hr><h5 id="2、区分-LTS-版本和-Current-版本的不同"><a href="#2、区分-LTS-版本和-Current-版本的不同" class="headerlink" title="2、区分 LTS 版本和 Current 版本的不同"></a>2、区分 LTS 版本和 Current 版本的不同</h5><ol><li><strong>LTS 为长期稳定版，对于追求稳定性的企业及项目，推荐安装 LTS 版本的 Node.js。</strong></li><li><strong>Current 为新特性尝鲜版 ，对热衷于尝试新特性的用户来说，推荐安装 Current 版本的 Node.js。但是可能存在 bug 或安全漏洞。</strong></li></ol><hr><h5 id="3、查看已安装的-Node-js-的版本号"><a href="#3、查看已安装的-Node-js-的版本号" class="headerlink" title="3、查看已安装的 Node.js 的版本号"></a>3、查看已安装的 Node.js 的版本号</h5><p><strong>win + r 打开运行面板，输入cmd打开终端，输入 node -v 回车，即可看到已安装的 Node.js 的版本号</strong></p><ul><li><strong>node -v之间有一个空格。</strong></li></ul>]]></content>
     
     
       
