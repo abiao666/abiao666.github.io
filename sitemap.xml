@@ -4,7 +4,7 @@
   <url>
     <loc>http://example.com/2022/07/20/Node-js-fs/</loc>
     
-    <lastmod>2022-07-20</lastmod>
+    <lastmod>2022-07-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -130,7 +130,7 @@
 
   <url>
     <loc>http://example.com/</loc>
-    <lastmod>2022-07-20</lastmod>
+    <lastmod>2022-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
