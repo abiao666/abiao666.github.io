@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-07-21T02:15:31.546Z</updated>
+  <updated>2022-07-22T02:17:41.705Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>laravel目录结构</title>
+    <link href="http://example.com/2022/07/22/laravel%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/"/>
+    <id>http://example.com/2022/07/22/laravel%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/</id>
+    <published>2022-07-22T02:17:18.000Z</published>
+    <updated>2022-07-22T02:17:41.705Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Larevel-目录结构"><a href="#Larevel-目录结构" class="headerlink" title="Larevel 目录结构"></a>Larevel 目录结构</h1><p>[^]: </p><h3 id="1、目录结构"><a href="#1、目录结构" class="headerlink" title="1、目录结构"></a>1、目录结构</h3><h4 id="app💨"><a href="#app💨" class="headerlink" title="app💨"></a><strong>app</strong>💨</h4><p><strong>应用程序核心目录，几乎项目所有的类都在这里。写我们的模型，控制器。</strong></p><hr><h4 id="bootstrap"><a href="#bootstrap" class="headerlink" title="bootstrap"></a><strong>bootstrap</strong></h4><p><strong>包含框架启动文件 <u>‘app.php’</u> ，和启动时为了优化性能而生成的文件。</strong></p><ul><li><strong>cache</strong></li></ul><p><strong>用来存放启动时优化性能时而生成的缓存文件</strong></p><p>[^必须设置 web 服务器可读写]: </p><hr><h4 id="config"><a href="#config" class="headerlink" title="config"></a><strong>config</strong></h4><p><strong>包含所有配置文件。</strong></p><hr><h4 id="database"><a href="#database" class="headerlink" title="database"></a><strong>database</strong></h4><p><strong>包含数据库填充、迁移、模型工厂文件，可以用作 ‘SQLite’ 数据库存放目录。</strong></p><hr><h4 id="public"><a href="#public" class="headerlink" title="public"></a><strong>public</strong></h4><p><strong>静态资源目录，并包含了首页文件 ‘index.php’。（根目录）</strong></p><hr><h4 id="resources💨"><a href="#resources💨" class="headerlink" title="resources💨"></a><strong>resources</strong>💨</h4><p><strong>包含了为编译的源文件（模板、语言、资源），写我们的模板。</strong></p><hr><h4 id="routes💨"><a href="#routes💨" class="headerlink" title="routes💨"></a><strong>routes</strong>💨</h4><p><strong>包含了所有的路由定义，写我们的路由。</strong></p><hr><h4 id="storage"><a href="#storage" class="headerlink" title="storage"></a><strong>storage</strong></h4><p><strong>包含了编译好的模板文件，session文件、缓存文件、日志等文件。</strong></p><p><strong>用户上传的文件、报错日志</strong></p><p>[^必须设置 web 服务器可读写]: </p><hr><h4 id="tests"><a href="#tests" class="headerlink" title="tests"></a><strong>tests</strong></h4><p><strong>单元目录，包含了自动测试文件。</strong></p><hr><h4 id="vendor"><a href="#vendor" class="headerlink" title="vendor"></a><strong>vendor</strong></h4><p><strong>composer 依赖目录，第三方安装包都会存放在这里。</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Larevel-目录结构&quot;&gt;&lt;a href=&quot;#Larevel-目录结构&quot; class=&quot;headerlink&quot; title=&quot;Larevel 目录结构&quot;&gt;&lt;/a&gt;Larevel 目录结构&lt;/h1&gt;&lt;p&gt;[^]: &lt;/p&gt;
+&lt;h3 id=&quot;1、目录结构&quot;&gt;&lt;a h</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Node.js-fs</title>
