@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://example.com/2022/07/29/TP-4-%E6%8E%A7%E5%88%B6%E5%99%A8%E5%AE%9A%E4%B9%89/</loc>
+    
+    <lastmod>2022-07-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2022/07/29/TP-3-URL%E8%AE%BF%E9%97%AE%E6%A8%A1%E5%BC%8F/</loc>
+    
+    <lastmod>2022-07-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2022/07/29/TP-2-%E5%BC%80%E5%90%AF%E8%B0%83%E8%AF%95%E4%B8%8E%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</loc>
+    
+    <lastmod>2022-07-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2022/07/29/TP-1.%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83%E5%92%8C%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/</loc>
+    
+    <lastmod>2022-07-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/2022/07/22/laravel%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/</loc>
     
     <lastmod>2022-07-22</lastmod>
@@ -139,7 +175,7 @@
 
   <url>
     <loc>http://example.com/</loc>
-    <lastmod>2022-07-22</lastmod>
+    <lastmod>2022-07-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>

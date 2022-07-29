@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-07-22T03:13:19.029Z</updated>
+  <updated>2022-07-29T02:52:42.555Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,90 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>TP-4.控制器定义</title>
+    <link href="http://example.com/2022/07/29/TP-4-%E6%8E%A7%E5%88%B6%E5%99%A8%E5%AE%9A%E4%B9%89/"/>
+    <id>http://example.com/2022/07/29/TP-4-%E6%8E%A7%E5%88%B6%E5%99%A8%E5%AE%9A%E4%B9%89/</id>
+    <published>2022-07-29T02:52:31.000Z</published>
+    <updated>2022-07-29T02:52:42.555Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="控制器定义"><a href="#控制器定义" class="headerlink" title="控制器定义"></a>控制器定义</h1><p>[^]: </p><h3 id="一、控制器定义"><a href="#一、控制器定义" class="headerlink" title="一、控制器定义"></a>一、控制器定义</h3><blockquote><p><strong>控制器</strong></p></blockquote><p><strong>controller，控制器文件存放再 controller 目录下</strong></p><ol><li><p>改变系统默认的控制器文件目录，可以在 config 下 route.php</p><p>配置：<code>controller_layer</code>    &#x3D;&gt;    更改的目录</p></li><li><p>类名和文件名大小写保持一致，采用驼峰式（首字母大写）</p></li><li><p>，避免引入同类名冲突，route.php 设置控制器后缀</p></li></ol><hr><h3 id="二、渲染输出"><a href="#二、渲染输出" class="headerlink" title="二、渲染输出"></a>二、渲染输出</h3><ol><li><p>直接采用方法内 return 返回的方式直接就输出了</p></li><li><p>使用 json 输出，直接采用 json函数</p><p>$data &#x3D; array[‘a’ &#x3D;&gt; 1, ‘b’ &#x3D;&gt; 2, ‘c’ &#x3D;&gt; 3];</p><p>return json($data);</p></li><li><p>不推荐使用 die、exit 等 PHP 方法中断代码执行，推荐助手函数halt();</p><p>halt(‘中断测试’);</p></li></ol><hr><h3 id="三、基础控制器"><a href="#三、基础控制器" class="headerlink" title="三、基础控制器"></a>三、基础控制器</h3><p>仅仅提供了控制器验证功能，并注入了 think\App 和 think\Request;</p><ul><li><p><strong>继承</strong></p><figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="keyword">namespace</span> <span class="title class_">app</span>\<span class="title class_">controller</span>;</span><br><span class="line"><span class="keyword">use</span> <span class="title">app</span>\<span class="title">BaseController</span>;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Test</span> <span class="keyword">extends</span> <span class="title">BaseController</span></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">index</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">        <span class="comment">//返回当前方法名</span></span><br><span class="line">        <span class="keyword">return</span> <span class="variable language_">$this</span> -&gt; request -&gt; <span class="title function_ invoke__">action</span>();</span><br><span class="line">        <span class="comment">//返回实际路径</span></span><br><span class="line">        <span class="keyword">return</span> <span class="variable language_">$this</span> -&gt; app -&gt; <span class="title function_ invoke__">getBasePath</span>();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ul><hr><h3 id="四、空控制器"><a href="#四、空控制器" class="headerlink" title="四、空控制器"></a>四、空控制器</h3><p>单应用模式下，我们可以给项目定义一个 Error 控制器类，来提醒错误；</p><figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Error</span></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">index</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&#x27;当前控制器不存在!&#x27;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><hr><h3 id="五、多级控制器"><a href="#五、多级控制器" class="headerlink" title="五、多级控制器"></a>五、多级控制器</h3><p>多级控制器就是再控制器 Controller 目录下在建立目录并创建控制器</p><p>此时访问的地址为： 域名地址&#x2F;新建目录.控制器</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;控制器定义&quot;&gt;&lt;a href=&quot;#控制器定义&quot; class=&quot;headerlink&quot; title=&quot;控制器定义&quot;&gt;&lt;/a&gt;控制器定义&lt;/h1&gt;&lt;p&gt;[^]: &lt;/p&gt;
+&lt;h3 id=&quot;一、控制器定义&quot;&gt;&lt;a href=&quot;#一、控制器定义&quot; class=&quot;heade</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>TP-3.URL访问模式</title>
+    <link href="http://example.com/2022/07/29/TP-3-URL%E8%AE%BF%E9%97%AE%E6%A8%A1%E5%BC%8F/"/>
+    <id>http://example.com/2022/07/29/TP-3-URL%E8%AE%BF%E9%97%AE%E6%A8%A1%E5%BC%8F/</id>
+    <published>2022-07-29T02:51:59.000Z</published>
+    <updated>2022-07-29T02:52:10.425Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="URL-访问模式"><a href="#URL-访问模式" class="headerlink" title="URL 访问模式"></a>URL 访问模式</h1><p>[^]: </p><h3 id="一、URL-解析"><a href="#一、URL-解析" class="headerlink" title="一、URL 解析"></a>一、URL 解析</h3><ol><li>ThinkPHP 框架非常多的操作都是通过 URL来实现的。</li><li>多应用：域名地址&#x2F;index.php&#x2F;应用&#x2F;控制器&#x2F;操作&#x2F;参数&#x2F;值….</li><li>单应用：域名地址&#x2F;index.php&#x2F;控制器&#x2F;操作&#x2F;参数&#x2F;值….</li><li>TP6.0 默认是单应用模式，多应用需要作为扩展安装</li><li>public&#x2F;index.php 中的 index.php 可以省略，只要设置 URL 重写即可</li><li>httpd.conf 配置文件中加载了 mod_rewrite.so 模块</li></ol><h3 id="二、URL-兼容模式"><a href="#二、URL-兼容模式" class="headerlink" title="二、URL 兼容模式"></a>二、URL 兼容模式</h3><p>域名地址&#x2F;应用&#x2F;?s&#x3D;控制器&#x2F;操作&#x2F;参数&#x2F;值</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;URL-访问模式&quot;&gt;&lt;a href=&quot;#URL-访问模式&quot; class=&quot;headerlink&quot; title=&quot;URL 访问模式&quot;&gt;&lt;/a&gt;URL 访问模式&lt;/h1&gt;&lt;p&gt;[^]: &lt;/p&gt;
+&lt;h3 id=&quot;一、URL-解析&quot;&gt;&lt;a href=&quot;#一、URL-解析</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>TP-2.开启调试与配置文件</title>
+    <link href="http://example.com/2022/07/29/TP-2-%E5%BC%80%E5%90%AF%E8%B0%83%E8%AF%95%E4%B8%8E%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/"/>
+    <id>http://example.com/2022/07/29/TP-2-%E5%BC%80%E5%90%AF%E8%B0%83%E8%AF%95%E4%B8%8E%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</id>
+    <published>2022-07-29T02:51:09.000Z</published>
+    <updated>2022-07-29T02:51:28.095Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="开启调试与配置文件"><a href="#开启调试与配置文件" class="headerlink" title="开启调试与配置文件"></a>开启调试与配置文件</h1><p>[^]: </p><h3 id="一、开启调试"><a href="#一、开启调试" class="headerlink" title="一、开启调试"></a>一、开启调试</h3><ol><li>调试模式开启后，会牺牲一些执行效率，但大大提高了开发排错的能力</li><li>当项目部署到生产环境时，再关闭调试模式即可</li><li>安装好的 TP6.0 默认没有开启调试</li><li>根目录.example..env 文件是环境配置文件，删除前面的 .example. 即可生效</li><li>右下角会出现 Trace 调试小图标，说明调试开启了</li><li>查看.env文件，打开调试的环境变量为 APP_DEBUG &#x3D; true</li><li>开启调试模式的优势<ol><li>会记录系统运行流程的执行过程</li><li>展示错误和调试信息，并开启日志记录</li><li>模板修改可以及时生效（不会被缓存干扰）</li><li>启动右下角的 Trace 调试功能，更加强大</li><li>发生异常时，也会显示异常信息</li></ol></li></ol><hr><h3 id="二、配置信息"><a href="#二、配置信息" class="headerlink" title="二、配置信息"></a>二、配置信息</h3><ol><li>配置文件有两种形式，开启调试采用的 .env 文件时一种，适合本地</li><li>另一种配置文件，在根目录下的 config 里，有很多类型的配置，适合部署</li><li>.env 环境变量用于本地开发测试，部署后会被忽略</li><li>这两个配置文件的优先级，在本地测试时，.evn 优先于 config</li><li>从 config 配置中可以看出，它是优先读取 .env 的，然后再默认配置一个自己的</li><li>而到了部署环境，.env 会被忽略，则自动切换到 congig配置</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;开启调试与配置文件&quot;&gt;&lt;a href=&quot;#开启调试与配置文件&quot; class=&quot;headerlink&quot; title=&quot;开启调试与配置文件&quot;&gt;&lt;/a&gt;开启调试与配置文件&lt;/h1&gt;&lt;p&gt;[^]: &lt;/p&gt;
+&lt;h3 id=&quot;一、开启调试&quot;&gt;&lt;a href=&quot;#一、开启调试</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>TP-开发规范和目录结构</title>
+    <link href="http://example.com/2022/07/29/TP-1.%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83%E5%92%8C%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/"/>
+    <id>http://example.com/2022/07/29/TP-1.%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83%E5%92%8C%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/</id>
+    <published>2022-07-29T02:49:31.000Z</published>
+    <updated>2022-07-29T02:50:41.364Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="开发规范和目录结构"><a href="#开发规范和目录结构" class="headerlink" title="开发规范和目录结构"></a>开发规范和目录结构</h1><p>[^]: </p><h3 id="1、开发规范"><a href="#1、开发规范" class="headerlink" title="1、开发规范"></a>1、开发规范</h3><blockquote><p><strong>ThinkPHP6.0</strong></p></blockquote><p> 遵循的是 PSR-2 的命名规范和 PSR-4 的自动加载</p><ul><li><p>目录和文件的规范</p><ul><li>目录名（小写+下划线）</li><li>类库和函数文件统一以 .php 为后缀</li><li>类的文件均以命名空间定义，并且命名空间的路径和类库文件所在路径一致</li><li>类（包含接口和 Trait）文件采用驼峰式命名（首字母大写），其他采用小写+下划线命名</li><li>类名（包括接口和 Trait）和文件名保持一致，统一采用驼峰式命名（首字母大写）</li></ul></li><li><p>函数和类、属性命名规范</p><ul><li>类的命名采用驼峰式（首字母大写）</li><li>函数的命名使用小写字母和下划线（小写字母开头）</li><li>方法的命名使用驼峰式（首字母小写）</li><li>属性的命名使用驼峰式（首字母小写）</li><li>以双下划线__打头的函数或方法作为魔术方法</li></ul></li><li><p>常量配置的规范</p><ul><li>常量以大写字母和下划线命名</li><li>配置参数以小写字母和下划线命名</li><li>环境变量定义使用大写字母和下划线命名</li></ul></li><li><p>数据表和字段的规范</p><ul><li>数据表和字段采用小写加下划线方式命名</li><li>注意字段名不要以下划线开头</li><li>字段不建议使用驼峰和中文作为数据表及字段命名</li></ul></li></ul><hr><h3 id="2、目录结构"><a href="#2、目录结构" class="headerlink" title="2、目录结构"></a>2、目录结构</h3><blockquote><p><strong>ThinkPHP6.0</strong></p></blockquote><p>支持多应用模式部署，app是应用目录，默认情况下采用的是单模式。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;开发规范和目录结构&quot;&gt;&lt;a href=&quot;#开发规范和目录结构&quot; class=&quot;headerlink&quot; title=&quot;开发规范和目录结构&quot;&gt;&lt;/a&gt;开发规范和目录结构&lt;/h1&gt;&lt;p&gt;[^]: &lt;/p&gt;
+&lt;h3 id=&quot;1、开发规范&quot;&gt;&lt;a href=&quot;#1、开发规范</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>laravel目录结构</title>
